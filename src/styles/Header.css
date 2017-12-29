@@ -1,0 +1,57 @@
+.Header-logo {
+  animation: Header-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Header-header {
+  background-color: #222;
+  height: 192px;
+  padding-top: 20px;
+  color: white;
+  position: relative;
+}
+
+.Header-title {
+  font-size: 1.5em;
+}
+
+.Header-nav {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.Header-nav ul {
+  list-style-type: none;
+  margin: 0;
+	padding: 0 20px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.Header-nav li {
+  float: left;
+  display: block;
+}
+
+.Header-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Header-nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@keyframes Header-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
